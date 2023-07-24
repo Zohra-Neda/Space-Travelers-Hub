@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
@@ -61,4 +59,3 @@ const rocketSlice = createSlice({
 
 export default rocketSlice.reducer;
 export const { reservedRocket, cancelReserve } = rocketSlice.actions;
->>>>>>> development

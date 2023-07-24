@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import React from 'react';
 import '../styles/RocketCard.css';
 import PropTypes from 'prop-types';
@@ -50,4 +48,3 @@ RocketCard.propTypes = {
 };
 
 export default RocketCard;
->>>>>>> development
