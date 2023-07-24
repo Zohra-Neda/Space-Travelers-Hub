@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import MyMissionCard from '../components/MyMissionCard';
-import MyRocketCard from '../components/MyRocketCard';
+import MyMissionCard from '../components/MyMissionCard.js';
+import MyRocketCard from '../components/MyRocketCard.js';
 
 function MyProfile() {
   const originalRockets = useSelector((state) => state.rockets.value);
