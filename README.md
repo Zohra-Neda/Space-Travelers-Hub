@@ -10,13 +10,13 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [🚀 Live Video ](#-live-video-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
+    - [Usage Tests](#usage-tests)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -64,13 +64,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE Video -->
-
-## 🚀 Live Video <a name="live-video"></a>
-
-- [Live Video Link]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -117,6 +110,14 @@ To run tests for the linter, run the following command:
 ```sh
 npx eslint "**/*.{js,jsx}" --fix
 npx stylelint "**/*.{css,scss}" --fix
+```
+
+### Usage Tests
+
+To run the tests, execute the following command:
+
+```sh
+  npm test
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
