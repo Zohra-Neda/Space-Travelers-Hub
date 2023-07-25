@@ -10,7 +10,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [🚀 Live Demo ](#-live-demo--1)
+  - [🚀 Live Video ](#-live-video-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -60,15 +60,15 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://book-store-1weo.onrender.com)
+- [Live Demo Link](https://space-travelers-hub-h0bs.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE Video -->
 
-## 🚀 Live Demo <a name="live-video"></a>
+## 🚀 Live Video <a name="live-video"></a>
 
-- [Live Video Link](https://book-store-1weo.onrender.com)
+- [Live Video Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
