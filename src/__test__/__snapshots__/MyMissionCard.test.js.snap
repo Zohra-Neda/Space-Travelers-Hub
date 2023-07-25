@@ -2,7 +2,7 @@
 
 exports[`MyMissionCard component renders correctly 1`] = `
 <div
-  className="my-mission-card border border-1  text-2xl ps-4 py-5 "
+  className="my-mission-card border border-1  text-2xl ps-4 py-3 "
 >
   Mission 1
 </div>

@@ -19,7 +19,7 @@ exports[`MyProfile component renders correctly 1`] = `
         className="my-mission-container my-5"
       >
         <div
-          className="my-mission-card border border-1  text-2xl ps-4 py-5 "
+          className="my-mission-card border border-1  text-2xl ps-4 py-3 "
         >
           Mission 1
         </div>
@@ -37,7 +37,7 @@ exports[`MyProfile component renders correctly 1`] = `
         className="my-rockets-container my-5"
       >
         <div
-          className="my-rocket-card border border-1 py-5 text-2xl ps-4 "
+          className="my-rocket-card border border-1 py-3 text-2xl ps-4 "
         >
           Rocket 1
         </div>

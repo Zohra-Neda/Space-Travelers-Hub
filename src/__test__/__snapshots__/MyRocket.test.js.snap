@@ -2,7 +2,7 @@
 
 exports[`MyRocketCard component renders correctly 1`] = `
 <div
-  className="my-rocket-card border border-1 py-5 text-2xl ps-4 "
+  className="my-rocket-card border border-1 py-3 text-2xl ps-4 "
 >
   Rocket1
 </div>
