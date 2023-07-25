@@ -1,5 +1,4 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
 
 const initialState = {
   loading: false,
@@ -10,14 +9,22 @@ const initialState = {
 const MISSIONURL = 'https://api.spacexdata.com/v3/missions';
 
 export const fetchMissions = createAsyncThunk('fetchMissions', async () => {
-  const response = await axios.get(MISSIONURL);
-  const missions = await response.data.map((result) => ({
-    id: result.mission_id,
-    name: result.mission_name,
-    description: result.description,
-    joined: false,
-  }));
-  return missions;
+  try {
+    const response = await fetch(MISSIONURL);
+    if (!response.ok) {
+      throw new Error('Failed to fetch missions');
+    }
+    const data = await response.json();
+    const missions = data.map((result) => ({
+      id: result.mission_id,
+      name: result.mission_name,
+      description: result.description,
+      joined: false,
+    }));
+    return missions;
+  } catch (error) {
+    throw new Error('Failed to fetch missions');
+  }
 });
 
 const missionSlice = createSlice({
@@ -27,7 +34,7 @@ const missionSlice = createSlice({
     joinMission: (state, action) => {
       const newState = state.value.map((mission) => {
         if (mission.id !== action.payload) return mission;
-        return ({ ...mission, joined: true });
+        return { ...mission, joined: true };
       });
       state.value = newState;
     },
@@ -35,7 +42,7 @@ const missionSlice = createSlice({
     leaveMission: (state, action) => {
       const newState = state.value.map((mission) => {
         if (mission.id !== action.payload) return mission;
-        return ({ ...mission, joined: false });
+        return { ...mission, joined: false };
       });
       state.value = newState;
     },
@@ -49,10 +56,10 @@ const missionSlice = createSlice({
       state.value = action.payload;
       state.error = '';
     });
-    builder.addCase(fetchMissions.rejected, (state, action) => {
+    builder.addCase(fetchMissions.rejected, (state) => {
       state.loading = false;
       state.value = [];
-      state.error = action.error.message;
+      state.error = 'Failed to fetch missions';
     });
   },
 });

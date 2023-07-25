@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rockets component renders correctly 1`] = `
+<div
+  className="rocket-container"
+>
+  <div
+    className="rocket-card flex gap-10 my-7 w-[80%] mx-auto"
+  >
+    <figure
+      className="img-container"
+    >
+      <img
+        alt="rocket"
+        className="rocket-image max-w-none"
+        src="https://example.com/rocket1.jpg"
+      />
+    </figure>
+    <div
+      className="rocket-data flex flex-col gap-3"
+    >
+      <h2
+        className=" font-semibold text-2xl rocket-title"
+      >
+        Rocket 1
+      </h2>
+      <p
+        className="rocket-description text-justify"
+      >
+        This is rocket 1
+         
+      </p>
+      <button
+        className="reserve-btn px-4 py-2 w-[20%] text-white bg-blue-500 rounded-sm shadow-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+        onClick={[Function]}
+        type="button"
+      >
+        Reserved
+      </button>
+    </div>
+  </div>
+  <div
+    className="rocket-card flex gap-10 my-7 w-[80%] mx-auto"
+  >
+    <figure
+      className="img-container"
+    >
+      <img
+        alt="rocket"
+        className="rocket-image max-w-none"
+        src="https://example.com/rocket2.jpg"
+      />
+    </figure>
+    <div
+      className="rocket-data flex flex-col gap-3"
+    >
+      <h2
+        className=" font-semibold text-2xl rocket-title"
+      >
+        Rocket 2
+      </h2>
+      <p
+        className="rocket-description text-justify"
+      >
+        <span
+          className=" text-white bg-green-500 px-2 rounded-sm"
+        >
+          Reserved
+        </span>
+         This is rocket 2
+         
+      </p>
+      <button
+        className=" border border-2 text-gray-500 rounded-sm reserve-btn px-2 py-2 w-[20%]"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel Reservation
+      </button>
+    </div>
+  </div>
+</div>
+`;

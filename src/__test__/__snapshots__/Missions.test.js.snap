@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions component renders correctly 1`] = `
+<table
+  className="mission-container border border-1 w-[80%] mx-auto my-10"
+>
+  <tr
+    className="header-table"
+  >
+    <th>
+      Mission
+    </th>
+    <th>
+      Description
+    </th>
+    <th>
+      Status
+    </th>
+    <th>
+      Join/Leave
+    </th>
+  </tr>
+  <tr>
+    <th
+      className=" w-[10%]"
+    >
+      Mission 1
+    </th>
+    <th
+      className="description-row"
+    >
+      This is mission 1 description
+    </th>
+    <th
+      className=" w-[17%]"
+    >
+      <span
+        className=" bg-gray-400 rounded-md px-2 py-1"
+      >
+        Not a Member
+      </span>
+    </th>
+    <th
+      className=" w-[15%]"
+    >
+      <button
+        aria-label="Reserve Rocket"
+        className=" px-1 py-1 border border-slate-700 rounded-md text-gray-500"
+        onClick={[Function]}
+        type="button"
+      >
+        Join Meeting
+      </button>
+    </th>
+  </tr>
+  <tr>
+    <th
+      className=" w-[10%]"
+    >
+      Mission 2
+    </th>
+    <th
+      className="description-row"
+    >
+      This is mission 2 description
+    </th>
+    <th
+      className=" w-[17%]"
+    >
+      <span
+        className="bg-green-500 text-white rounded-md px-1"
+      >
+        Active Member
+      </span>
+    </th>
+    <th
+      className=" w-[15%]"
+    >
+      <button
+        aria-label="Reserve Rocket"
+        className="border px-2 py-1 rounded-md border-red-500 text-red-500"
+        onClick={[Function]}
+        type="button"
+      >
+        Leave Meeting 
+      </button>
+    </th>
+  </tr>
+</table>
+`;
