@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyProfile component renders correctly 1`] = `
+<div
+  className="flex justify-center my-10"
+>
+  <div
+    className="profile-container flex gap-5 w-[80%]"
+  >
+    <div
+      className="w-[50%]"
+    >
+      <h2
+        className="text-4xl font-semibold"
+      >
+        My Missions
+      </h2>
+      <div
+        className="my-mission-container my-5"
+      >
+        <div
+          className="my-mission-card border border-1  text-2xl ps-4 py-5 "
+        >
+          Mission 1
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-[50%]"
+    >
+      <h2
+        className="text-4xl font-semibold"
+      >
+        My Rockets
+      </h2>
+      <div
+        className="my-rockets-container my-5"
+      >
+        <div
+          className="my-rocket-card border border-1 py-5 text-2xl ps-4 "
+        >
+          Rocket 1
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

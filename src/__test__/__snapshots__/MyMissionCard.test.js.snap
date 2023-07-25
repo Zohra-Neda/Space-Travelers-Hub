@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyMissionCard component renders correctly 1`] = `
+<div
+  className="my-mission-card border border-1  text-2xl ps-4 py-5 "
+>
+  Mission 1
+</div>
+`;
