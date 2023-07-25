@@ -8,7 +8,6 @@ const mockStore = configureStore([]);
 
 describe('MyProfile component', () => {
   test('renders correctly', () => {
-
     const initialState = {
       rockets: {
         value: [
@@ -37,7 +36,7 @@ describe('MyProfile component', () => {
     const component = renderer.create(
       <Provider store={store}>
         <MyProfile />
-      </Provider>
+      </Provider>,
     );
 
     const tree = component.toJSON();
