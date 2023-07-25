@@ -1,0 +1,13 @@
+.active {
+  text-decoration: underline;
+}
+
+.vertical-line {
+  border: 1px solid rgb(46, 46, 46);
+  height: 30px;
+  color: red;
+}
+
+ul li a {
+  color: blue;
+}
